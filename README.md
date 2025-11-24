@@ -1,6 +1,6 @@
-# 🧪 GitHub 101: Version Control for Our Lab
+# 🧪 GitHub 101: Version Control for PAHGISL
 
-Welcome to the lab's introductory session on GitHub! This guide will help you set up your environment and understand the basics of version control without getting technical.
+Welcome to the PAHGISL's introductory session on GitHub! This guide will help you set up your environment and understand the basics of version control without getting technical.
 
 ## ✅ Prerequisites (Complete Before Session)
 
@@ -23,7 +23,7 @@ To make the most of our workshop, please complete these three steps before you a
 Imagine if "Track Changes" in Word and "Dropbox" were combined, but specifically designed for research code and data.
 
 * **Git:** A tool that sits on your computer and tracks changes to your files over time.
-* **GitHub:** The website where we store these files to share them with the lab.
+* **GitHub:** The website where we store these files to share them with PAHGISL members.
 
 ### The Core Workflow (The "Save" Cycle)
 
@@ -66,3 +66,34 @@ Now that you have the project open on your computer, let's make a change.
 
 ### 1. Edit a File
 Open the file named `README.md` and add a few lines:
+
+Save the file normally (`Ctrl+S` or `Cmd+S`).
+
+### 2. The "Source Control" Tab
+Look at the left sidebar in VS Code. You will see an icon that looks like a branching graph. This is the **Source Control** tab.
+
+You should see `README.md` listed there. This means Git noticed you changed it.
+
+### 3. Save the Snapshot (Stage & Commit)
+1.  Hover over the file name (`README.md`) in the sidebar and click the **+ (Plus sign)**. This moves the file to "Staged Changes" (it's now in your shopping cart).
+2.  In the "Message" box at the top, type a short description: `Added my name`.
+3.  Click the blue **Commit** button (or the Checkmark icon).
+
+### 4. Upload to Cloud (Push)
+Your changes are now saved in Git history on your laptop, but they aren't on the website yet.
+1.  Click the blue **Sync Changes** button (or click the three dots `...` -> **Push**).
+2.  Go back to your GitHub webpage and refresh. You should see your text!
+
+---
+
+## 💡 Important Lab Tips
+
+* **Commit Often:** Think of a "Commit" like a save point in a video game. Do it every time you finish a small task (like fixing a graph or cleaning data).
+* **Write Clear Messages:** Instead of "updated," write "Fixed bug in temperature calculation." This helps us find errors later.
+* **Don't Upload Huge Data:** GitHub is for code, not massive raw datasets (like 5GB video files). We will discuss how to ignore those files using a `.gitignore` file later.
+
+---
+
+### Need Help?
+* Ask a colleague!
+* Check the [VS Code Git Documentation](https://code.visualstudio.com/docs/sourcecontrol/overview).
