@@ -23,14 +23,14 @@ We are going to create a branch using your **UniKey** so we can identify who is 
 2.  Look at the very **bottom-left corner** of the VS Code blue bar. You should see the word `main` (or `master`) next to a little graph icon.
 3.  Click on `main`. A menu will pop up at the top.
 4.  Select **+ Create new branch...**
-5.  **Name it:** Type your **UniKey** (e.g., `yiyu0116`) and press Enter.
+5.  **Name it:** Type your **UniKey** (e.g., `name1234`) and press Enter.
 
 *Result:* Look at the bottom-left corner again. It should now show your UniKey. You are now working in your own parallel universe!
 
 ### Step 2: Make a Change "Safely"
 Now that you are in your own branch, you can do anything you want without breaking the main code.
 
-1.  Create a new file named `[your_uni_id].txt` (e.g., `yiyu0116.txt`).
+1.  Create a new file named `[your_unikey].txt` (e.g., `name1234.txt`).
 2.  Inside, write one sentence about your current research focus.
 3.  Save the file.
 
